@@ -1,0 +1,212 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+  color: white;
+}
+
+/* Botão Voltar */
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-family: var(--main-font);
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: 56px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+
+/* Recompensas */
+
+.rewards {
+  background-color: var(--color-bg2);
+  border: 1px solid #ffffff27;
+  border-radius: 5px;
+  padding: 16px 32px 24px 32px;
+  margin-bottom: 24px;
+}
+
+/* Header */
+.rewardsHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.rewardsTitle {
+  font-size: 18px;
+  font-family: var(--main-font);
+  font-weight: bold;
+  color: var(--color-secondary);
+}
+
+.trophy {
+  width: 22px;
+  height: 22px;
+}
+
+/* GRID */
+.rewardsGrid {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 1.2fr;
+  gap: 32px;
+}
+
+/* Bloco recompensas */
+
+.rewardBlock {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+/* Ícones */
+.rewardIconBig {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.rewardIcon {
+  width:  35px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+/* Texto */
+.rewardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+/* Label */
+.labelUpper {
+  font-size: 14px;
+  font-family: var(--body-font);
+  font-weight: normal;
+  padding-bottom: 5px;
+  color: var(--color-text-secondary);
+  line-height: 1.2;
+}
+
+/* Valor */
+.rewardText strong {
+  font-size: 22px;
+  line-height: 1.1;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* Cores */
+.positive {
+  color: var(--color-success);
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.negative {
+  color: var(--color-error);
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* Card vôo */
+
+.card {
+  display: grid;
+  grid-template-columns: 2.5fr 2fr 1.2fr 1.2fr;
+  align-items: center;
+  padding: 20px 24px;
+  background: var(--color-bg2);
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+}
+
+/* Avião */
+.aircraft strong {
+  font-size: 16px;
+  font-family: var(--body-font);
+  font-weight: normal;
+}
+
+.aircraft span {
+  display: block;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-top: 4px;
+  font-family: var(--body-font);
+  font-weight: lighter;
+}
+
+/* Trajeto */
+.routeColumn {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--body-font);
+  font-size: 14px;
+  color: white;
+}
+
+.labelUpper1{
+  font-family: var(--body-font);
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-weight: lighter;
+}
+
+.labelUpper2{
+  font-family: var(--body-font);
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  font-weight: lighter;
+  padding-bottom: 6px;
+}
+
+.routeIcon {
+  width: 100px;
+  height: auto;
+}
+
+.routeCodes {
+  display: flex;
+  gap: 38px;
+  font-size: 12px;
+  color: var(--color-secondary);
+}
+
+/* Matrícula e Data */
+
+.infoCenter {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: center;
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.infoCenter strong {
+  font-size: 14px;
+}
