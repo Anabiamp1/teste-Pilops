@@ -87,11 +87,15 @@ Foi construído um backend em Node.js, que expõe esses dados por meio de uma AP
 O usuário é redirecionado para uma página com os detalhes completos daquele voo, incluindo informações como aeronave, rota, data e saldo.
 - **Diferenciais:** scroll infinito (lazy loading).
 
-## 👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo: 
+## 
+
+👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo em [`/Insights`](./Insights).
 
 
-## 📈 Mudanças que faria se tivesse mais tempo
 
+## 📈 Sugestões
+
+- Adicionar filtros ou ordenação na lista de voos
 
 ##
 
