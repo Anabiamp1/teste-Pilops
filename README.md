@@ -9,6 +9,7 @@ Este projeto consiste em uma aplicação full stack desenvolvida para exibir, na
 O objetivo principal foi construir uma solução estruturada, separando frontend e backend baseando-se em um layout do `Figma`.
 
 
+
 ## 🛠️ Linguagens e ferramentas usadas
 
 ![](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -24,7 +25,7 @@ O objetivo principal foi construir uma solução estruturada, separando frontend
 
 
 
-
+##
 ### 🔄 Backend
 
 Foi construído um backend em Node.js, que expõe esses dados por meio de uma API testada através do `Insomnia`.
@@ -77,6 +78,8 @@ Foi construído um backend em Node.js, que expõe esses dados por meio de uma AP
     - Endpoint para calcular **saldo total acumulado** dos voos.
 
 
+##
+
 ### 💻 Frontend
 
 ### **Tela 1:**
@@ -92,14 +95,11 @@ O usuário é redirecionado para uma página com os detalhes completos daquele v
 👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo em [`/Insights`](./Insights).
 
 
+##
 
 ## 📈 Sugestões
 
 - Adicionar filtros ou ordenação na lista de voos
-
-##
-
-📚 Recursos Úteis
 
 
 ##
