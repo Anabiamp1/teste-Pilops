@@ -100,7 +100,7 @@ O usuário é redirecionado para uma página com os detalhes completos daquele v
 
 ## 📈 Sugestões
 
-- Adicionar filtros ou ordenação na lista de voos
+- Adicionar filtros na lista de voos
 
 
 ##
