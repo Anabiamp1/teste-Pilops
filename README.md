@@ -92,7 +92,7 @@ O usuário é redirecionado para uma página com os detalhes completos daquele v
 
 ## 
 
-👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo em [`/Insights`](./Insights).
+👉 Para mais detalhes pessoais sobre meu aprendizado, consulte o arquivo completo em [`/reflexoes`](./teste-Pilops/insights/).
 
 
 ##
