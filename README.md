@@ -8,6 +8,7 @@ Projeto desenvolvido como parte do processo seletivo para a vaga de `Engenheiro(
 Este projeto consiste em uma aplicação full stack desenvolvida para exibir, navegar e detalhar informações de voos a partir de dados fornecidos pela Pilops.
 O objetivo principal foi construir uma solução estruturada, separando frontend e backend baseando-se em um layout do `Figma`.
 
+obs: a maior parte do projeto foi inspirado nos tutoriais de cursos `Rocketseat`. Então a estrutura e base podem estar semelhantes aos cursos de desenvolvimento ensinados na plataforma.
 
 
 ## 🛠️ Linguagens e ferramentas usadas
