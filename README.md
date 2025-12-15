@@ -30,7 +30,7 @@ O objetivo principal foi construir uma solução estruturada, separando frontend
 Foi construído um backend em Node.js, que expõe esses dados por meio de uma API testada através do `Insomnia`.
 
 
-📂 O código completo dpara a base de dados está disponível em [`/state-machine/hello-world.json`](./state-machine/hello-world.json).
+📂 O código completo dpara a base de dados está disponível em [`/Insights`](./teste-Pilops/Insights).
 
 - Foi criado uma API que servisse os dados do JSON.
 
