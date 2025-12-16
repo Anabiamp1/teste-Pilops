@@ -33,7 +33,7 @@ obs: a maior parte do projeto foi inspirado nos tutoriais de cursos `Rocketseat`
 ##
 ### 🔄 Backend
 
-Foi construído um backend em Node.js, que expõe esses dados por meio de uma API testada através do `Insomnia`. Print do teste está disponível em [`/json`](./flightHistory.json/json)
+Foi construído um backend em Node.js, que expõe esses dados por meio de uma API testada através do `Insomnia`. Print do teste está disponível em [`/printteste/`](./printteste/)
 
 ##
 
