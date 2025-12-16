@@ -10,7 +10,11 @@ O objetivo principal foi construir uma solução estruturada, separando frontend
 
 obs: a maior parte do projeto foi inspirado nos tutoriais de cursos `Rocketseat`. Então a estrutura e base podem estar semelhantes aos cursos de desenvolvimento ensinados na plataforma.
 
+##
 
+![Image](https://github.com/user-attachments/assets/5a20351f-5f90-4a3c-bc9b-817cb4a1a310)
+
+##
 ## 🛠️ Linguagens e ferramentas usadas
 
 ![](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -29,10 +33,16 @@ obs: a maior parte do projeto foi inspirado nos tutoriais de cursos `Rocketseat`
 ##
 ### 🔄 Backend
 
-Foi construído um backend em Node.js, que expõe esses dados por meio de uma API testada através do `Insomnia`.
+Foi construído um backend em Node.js, que expõe esses dados por meio de uma API testada através do `Insomnia`. Print do teste está disponível em [`/json`](./flightHistory.json/json)
+
+##
+
+![Image](https://github.com/user-attachments/assets/9ba038aa-299e-4165-941b-2d2d0c5c14cb)
+
+##
 
 
-📂 O código completo dpara a base de dados está disponível em [`/json`](./flightHistory.json/json).
+📂 O código completo para a base de dados está disponível em [`/json`](./flightHistory.json/json).
 
 - Foi criado uma API que servisse os dados do JSON.
 
