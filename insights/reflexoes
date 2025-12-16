@@ -61,9 +61,6 @@ Esses ajustes foram feitos aos poucos, com bastante tentativa e erro, até chega
 Algumas partes foram mais desafiadoras para mim:
 
 -  Entender por que certos estilos não aplicavam (principalmente com CSS Modules)
-
--  Ajustar alinhamentos quando usei SVG no lugar de elementos feitos só com CSS
-
--  Lidar com bugs pequenos que apareciam depois de mudanças visuais
-
+-  Ajustar alinhamentos quando usei SVG no lugar de elementos feitos só com CSS - sei que tem alguns erros que não consegui arrumar no momento com meu conhecimento 
 -  Garantir que os dados exibidos estivessem no formato correto, como datas e valores
+-  Também houveram várias tentativas de fazer deploy do projeto, mas falharam 
