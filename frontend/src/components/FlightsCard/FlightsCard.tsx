@@ -1,11 +1,11 @@
 import styles from "./styles.module.css";
-import type { FlightSummary } from "../../types/FlightSummary";
+import type { FlightInicio } from "../../types/FlightInicio";
 import { useNavigate } from "react-router-dom";
 
 import group from "../../assets/group.svg";
 
 interface Props {
-  flight: FlightSummary;
+  flight: FlightInicio;
 }
 
 /* data BR */

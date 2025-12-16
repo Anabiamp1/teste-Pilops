@@ -1,4 +1,4 @@
-export interface FlightSummary {
+export interface FlightInicio {
   id: string;
   aircraft: string;
   registration: string;

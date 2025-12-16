@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { getFlights } from "../../services/flights";
 import { FlightsCard } from "../../components/FlightsCard/FlightsCard";
-import type { FlightSummary } from "../../types/FlightSummary";
+import type { FlightInicio } from "../../types/FlightInicio";
 import styles from "./styles.module.css";
 
 
 export function Flights() {
-  const [flights, setFlights] = useState<FlightSummary[]>([]);
+  const [flights, setFlights] = useState<FlightInicio[]>([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);

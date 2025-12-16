@@ -11,12 +11,6 @@ import star from "../../assets/star.svg";
 import award from "../../assets/award.svg";
 import group from "../../assets/group.svg";
 
-/* 👉 Função para formatar data no padrão BR */
-function formatDateBR(date: string) {
-  const [year, month, day] = date.split("-");
-  return `${day}/${month}/${year}`;
-}
-
 export function FlightDetails() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
@@ -42,7 +36,6 @@ export function FlightDetails() {
 
       {/* Recompensas */}
       <div className={styles.rewards}>
-        {/* Header */}
         <div className={styles.rewardsHeader}>
           <img src={trophy} alt="Recompensas" className={styles.trophy} />
           <p className={styles.rewardsTitle}>Recompensas</p>
@@ -52,7 +45,6 @@ export function FlightDetails() {
           {/* Ganhos totais */}
           <div className={styles.rewardBlock}>
             <img src={coin} alt="Ganhos" className={styles.rewardIconBig} />
-
             <div className={styles.rewardText}>
               <span className={styles.labelUpper}>Ganhos totais</span>
               <strong
@@ -73,7 +65,6 @@ export function FlightDetails() {
           {/* XP */}
           <div className={styles.rewardBlock}>
             <img src={star} alt="XP" className={styles.rewardIcon} />
-
             <div className={styles.rewardText}>
               <span className={styles.labelUpper}>XP CONQUISTADO</span>
               <strong>{flight.flightData.xp}</strong>
@@ -83,7 +74,6 @@ export function FlightDetails() {
           {/* Bônus */}
           <div className={styles.rewardBlock}>
             <img src={award} alt="Bônus" className={styles.rewardIcon} />
-
             <div className={styles.rewardText}>
               <span className={styles.labelUpper}>Bônus de missão</span>
               <strong>{flight.flightData.missionBonus * 100}%</strong>
@@ -92,7 +82,7 @@ export function FlightDetails() {
         </div>
       </div>
 
-      {/* Card voo */}
+      {/* Card do voo */}
       <div className={styles.card}>
         {/* Coluna 1 */}
         <div className={styles.aircraft}>
@@ -104,7 +94,6 @@ export function FlightDetails() {
         <div className={styles.routeColumn}>
           <span className={styles.labelUpper1}>Trajeto</span>
           <img src={group} alt="Trajeto" className={styles.routeIcon} />
-
           <div className={styles.routeCodes}>
             <span>{flight.flightData.route.from}</span>
             <span>{flight.flightData.route.to}</span>
@@ -120,7 +109,9 @@ export function FlightDetails() {
         {/* Coluna 4 */}
         <div className={styles.infoCenter}>
           <span className={styles.labelUpper2}>Data</span>
-          <strong>{formatDateBR(flight.flightData.date)}</strong>
+          <strong>
+            {new Date(flight.flightData.date).toLocaleDateString("pt-BR")}
+          </strong>
         </div>
       </div>
     </div>
