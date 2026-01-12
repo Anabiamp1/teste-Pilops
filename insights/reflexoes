@@ -1,0 +1,66 @@
+# 📘 Insights e Reflexões 
+
+Este documento reúne minhas anotações e aprendizados práticos durante o Teste técnico - Pilops.
+
+---
+
+## 🛠️ Primeiros Passos
+No início, meu foco foi entender bem o problema e os dados que eu teria disponível.
+Comecei estruturando o projeto aos poucos, organizando as pastas e entendendo como funcionaria a navegação entre telas.
+Grande parte do projeto foi inspirado nos vídeos assistidos pela platafor `Rocketseat` e Udemy.
+
+A ideia principal era:
+
+- Mostrar uma lista de voos
+
+- Permitir clicar em um voo
+
+- Ver os detalhes completos desse voo em outra tela
+
+Fui implementando passo a passo, testando bastante e ajustando conforme os problemas iam aparecendo.
+
+---
+
+## 🔄 Aprendizados 
+
+Ao longo do projeto, revi várias coisas importantes:
+
+- Como consumir dados de uma API e tratar as respostas no frontend
+- Como trabalhar com componentes reutilizáveis, como o card de voo
+- A importância de tipar os dados com TypeScript, principalmente para evitar erros
+- Como usar React Router para navegação entre páginas
+- Como organizar melhor o layout usando CSS Modules, sem quebrar estilos de outras partes
+
+---
+
+## 📊 Visualização
+
+A parte visual é uma das que mais tenho facilidade de trabalhar.
+
+Fui ajustando:
+
+- Ícones
+- Tipografia
+- Cores
+- Espaçamento entre elementos
+
+Também implementei:
+
+-  **Hover** nos cards para melhorar a interação
+
+-  **Layout** mais claro tanto na lista quanto na tela de detalhes
+
+-  Ícones em **SVG** para deixar a interface mais consistente
+
+Esses ajustes foram feitos aos poucos, com bastante tentativa e erro, até chegar em algo que ficasse mais agradável visualmente.
+
+---
+
+## 💡 Dificuldades e desafios
+
+Algumas partes foram mais desafiadoras para mim:
+
+-  Entender por que certos estilos não aplicavam (principalmente com CSS Modules)
+-  Ajustar alinhamentos quando usei SVG no lugar de elementos feitos só com CSS - sei que tem alguns erros que não consegui arrumar no momento com meu conhecimento 
+-  Garantir que os dados exibidos estivessem no formato correto, como datas e valores
+-  Também houveram várias tentativas de fazer deploy do projeto, mas falharam 

@@ -1,0 +1,43 @@
+:root {
+  /* Cores principais */
+  --color-primary: #1A1A1A;
+  --color-secondary: white;
+
+  /* Trajeto */
+  --color-tj: #FFBF00;
+  --color-bg: #212121;
+  --color-bg2: #4444443e;
+  --color-border: #ffffff27;
+
+  /* Texto */
+  --color-text-primary: white;
+  --color-text-secondary: #E0E0E0;
+  --main-font: 'Sora', sans-serif;
+  --body-font: "Manrope", sans-serif;
+
+  /* Feedback */
+  --color-success: #00FF88;
+  --color-error: #FF0000;
+}
+
+body {
+    background-color: #1A1A1A;
+    margin-left: 66px;
+    margin-right: 67px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
+

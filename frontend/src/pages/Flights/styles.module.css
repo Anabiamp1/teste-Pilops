@@ -1,0 +1,16 @@
+/* CSS Histórico*/
+
+.label{
+    font-family: var(--main-font);
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.label1{
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 12px;
+    padding-bottom: 50px;
+}

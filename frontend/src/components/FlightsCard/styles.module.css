@@ -1,0 +1,124 @@
+.card {
+  display: grid;
+  grid-template-columns: 2.5fr 2fr 1.2fr 1.2fr 1.2fr;
+  align-items: center;
+  padding: 20px 24px;
+  background-color: var(--color-bg2);
+  border: 1px solid #ffffff27;
+  border-radius: 5px;
+  padding: 16px 32px 24px 24px;
+  margin-bottom: 21px;
+  cursor: pointer;
+  transition: border 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+/* Hover Box */
+.card:hover {
+  border-color: var(--color-tj);
+  box-shadow: 0 0 0 1px var(--color-tj);
+  transform: translateY(-1px);
+}
+
+/* Coluna 1 */
+.aircraft strong {
+  font-size: 16px;
+  font-family: var(--body-font);
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+.aircraft span {
+  display: block;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  font-family: var(--body-font);
+  font-weight: lighter;
+  margin-top: 4px;
+}
+
+/* Trajeto */
+.routeColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--body-font);
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.routeIcon {
+  width: 90px;
+  height: auto;
+  margin-top: -10px;
+}
+
+.routeCodes {
+  display: flex;
+  gap: 28px;
+  font-family: var(--body-font);
+  font-size: 14px;
+  font-weight: lighter;
+  color: var(--color-secondary);
+}
+
+/* Informações */
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  font-family: var(--body-font);
+  font-weight: lighter;
+  margin-bottom: 4px;
+}
+
+.info strong {
+  font-size: 16px;
+  font-family: var(--body-font);
+  font-weight: normal;
+  color: var(--color-secondary);
+}
+
+/* Saldo */
+.balance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.positive {
+  color: var(--color-success);
+  font-family: var(--body-font);
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.negative {
+  color: var(--color-error);
+  font-family: var(--body-font);
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.routeColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+/* texto trajeto */
+
+.routeColumn::before {
+  content: "Trajeto";
+  font-size: 12px;
+  font-weight: lighter;
+  color: var(--color-text-secondary);
+  margin-bottom: 4px;
+}
