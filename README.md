@@ -19,7 +19,7 @@ obs: a maior parte do projeto foi inspirado nos tutoriais de cursos `Rocketseat`
 
 
 ### 🔗 Demo
-**Frontend:** [Versel - PILOPS](https://teste-pilops-ou3nk2k7u-ana-beatriz-ramos-projects.vercel.app)  
+**Frontend:** [Versel - PILOPS](https://teste-pilops-o1z3uvu9x-ana-beatriz-ramos-projects.vercel.app/flights)  
 **Backend:** [Render - PILOPS](https://teste-pilops.onrender.com/flights)
 
 
